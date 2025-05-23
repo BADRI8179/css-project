@@ -1,0 +1,952 @@
+body{
+    width: auto;
+}
+p{
+    font-size: medium;
+}
+a{
+    font-size: 20px;
+    text-decoration:none;
+    color:crimson;
+    font-weight: bold;
+}
+ .container {
+    background-image: url(https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?cs=srgb&dl=buffet-business-counter-776538.jpg&fm=jpg);
+    background-size: cover;
+    margin-top: -40px;
+    height: 100vh;
+    width: 101%;
+ }
+ h1 {
+    font-size: 45px;
+}
+fieldset{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    background-color: burlywood;
+}
+.nav{
+    display: flex;
+    position: fixed;
+    top: -50px;
+    z-index: 1;
+}
+ .navbar {
+    display: flex;
+    margin-top: 50px;
+    margin-left: -5px;
+}
+ .navlinks {
+    display: flex;
+    align-items: start;
+    margin-left: 450px;
+    margin-top: 50px;
+    gap: 20px;
+    cursor: pointer; 
+}
+
+ .hamburger {
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: none; /* Default hidden */
+}
+ .name {
+   padding-top: 200px;
+   margin-left: 50px;
+   color: aliceblue;
+}
+.hovering{
+    height:25%;
+    width:15%;
+    display: flex;
+    margin-left: 10px;
+    font-size: medium;
+    border-radius: 20%;
+    background-color:cornsilk;
+    color: black;
+    transition: all 1s 0s ease;
+}
+
+.hovering:hover {
+    height:20% ;
+    width: 20%;
+    background-color:darksalmon;
+    border-radius: 40%;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.hovering1{
+    height:20%;
+    width:7%;
+    margin-left: 10px;
+    font-size: medium;
+    border-radius: 20%;
+    background-color:cornsilk;
+    color: black;
+    transition: all 1s 0s ease;
+}
+.hovering1:hover {
+    height:30% ;
+    width: 10%;
+    background-color:darksalmon;
+    border-radius: 40%;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.chicken {
+    background-image: url(https://i.pinimg.com/originals/21/1a/4c/211a4cba4c0138bcc4b7c63156ea2450.jpg);
+    color: white;
+    background-size: cover;
+    padding: 10px 10px;
+    text-align: center;
+    display: grid;
+    grid-template-areas: 'su image';
+    height: 90vh;
+    width: 100%;
+}
+/* @media screen and (min-width: 430px){
+    .chicken{
+        background-image: url(https://www.dawnvale.com/wp-content/uploads/news/0218/perfect-bar-atmosphere-lighting.jpg);
+
+    }
+} */
+
+
+.animation img{
+   width: 40vh;
+   height: 40vh;
+   margin-left: 900px;
+   margin-top: -100px;
+   border-radius: 50%;
+   cursor: pointer;
+   animation: design 9s linear 2s infinite ;
+
+}
+@keyframes design {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.image {
+    margin-top: 200px;
+    width: 60%;
+    grid-area: image;
+}
+.image img{
+    width: 130%;
+}
+
+.su {
+    height: 40%;
+    width: 80%;
+    text-align: left;
+    text-justify: left;
+    font-display: left;
+    font-size: 25px;
+     grid-area: su;
+}
+
+.home {
+    background-image: url(https://thearchitectsdiary.com/wp-content/uploads/2018/06/Best-Restaurant-Interior-Design-In-India-3.jpg);
+    color:aliceblue;
+    background-size: cover;
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.page {
+    padding: 50px 20px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    text-justify: center;
+    height: 50%;
+    width: 70%;
+}
+
+.first {
+    border-radius: 10px;
+    margin:80px 30px ;
+    color: black;
+    background-color: aliceblue;
+    padding: 30px 10px;
+    height: 60%;
+    width: 40%;
+    font-size: medium;
+    cursor: pointer;
+}
+.first,h2{
+    font-size: larger;
+    text-align: center;
+}
+
+.first:hover {
+    background-color: coral;
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rosybrown;
+
+}
+
+.second {
+    border-radius: 10px;
+    margin: 100px ;
+    color: black;
+    background-color: aliceblue;
+    padding: 30px 10px;
+    height: 60%;
+    width: 40%;
+    font-size: medium;
+    margin-top: -400px;
+    margin-left: 510px;
+    cursor: pointer;
+}
+.second, h2{
+    font-size: larger;
+    text-align: center;
+}
+.second:hover {
+    background-color: coral;
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rosybrown;
+}
+
+.third {
+    border-radius: 10px;
+    margin:100px;
+    color: black;
+    background-color: aliceblue;
+    padding:30px 10px;
+    height: 60%;
+    width: 40%;
+    font-size: medium;
+    margin-top: -430px;
+    margin-left: 980px;
+    cursor: pointer;
+}
+.third, h2{
+    font-size: larger;
+    text-align: center;
+}
+.third:hover {
+    background-color: coral;
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rosybrown;
+}
+
+.listitems {
+    background-image: url(https://i.pinimg.com/originals/a1/55/14/a15514a59abc0ca91bbeeb6c155a3d69.jpg);
+    color: aliceblue;
+    background-size: cover;
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.list {
+    padding: 50px 20px;
+    padding-left: 200px;
+    margin-top: 20px;
+    font-size: 25px;
+    height: 60%;
+    width: 40%;
+}
+
+.allItems1 {
+    padding-bottom: 5px;
+    font-size: 28px;
+    margin-left: -730px;
+    padding: 20px;
+    padding-top: 370px;
+    color: aliceblue;
+}
+
+.allItems2 {
+    padding-bottom: 5px;
+    font-size: 28px;
+    margin-left: 200px;
+    padding: 20px;
+    padding-top: 370px;
+    color: aliceblue;
+}
+
+.allItems3 {
+    padding-bottom: 5px;
+    font-size: 28px;
+    margin-left: 220px;
+    padding: 20px;
+    padding-top: 370px;
+    color: aliceblue;
+}
+
+.new {
+    background-image: url(https://png.pngtree.com/back_origin_pic/03/91/31/216a8c258305188af56217c3b58b99c5.jpg);
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+.sp {
+    padding: 45px 30px;
+    margin-top: 20px;
+    margin-left: 200px;
+    text-align: left;
+    text-justify: left;
+    font-display: left;
+    font-size: 25px;
+     height: 60%;
+     width: 40%;
+}
+
+.dish {
+    padding: 50px 60px;
+    padding-top:650px;
+    font-size: 25px;
+    margin:-400px;
+    height: 60%;
+     width: 40%;
+}
+
+.plate {
+    padding-left:-50px;
+    margin-left: -1070px;
+    padding-right:180px;
+    margin-top: 250px;
+}
+p{
+    font-size: medium;
+}
+.function {
+    background-image: url(https://wallpapercave.com/wp/wp1874163.jpg);
+    color: white;
+    background-size:cover;
+    padding: 10px 10px;
+    text-align:center;
+    height:80vh;
+    width: 100%;
+    display: flex;
+}
+
+.booking {
+    height:70%;
+    width:70%;
+    margin: -100px;
+    padding-left: 200px;
+    margin-top: 150px;
+    margin-right: 300px;
+}
+
+.festival {
+    padding: 90px 0px;
+    margin-left:-200px;
+    font-size:0px;
+    margin-top:100px;
+}
+.reserve{
+    background-image: url(https://thearchitectsdiary.com/wp-content/uploads/2018/06/Best-Restaurant-Interior-Design-In-India-3.jpg);
+    color:aliceblue;
+    background-size: cover;
+    padding: 60px 180px;
+    font-size: 25px;
+    height: 100%;
+    width: 77%;
+}
+input,textarea{
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom:50px;
+    margin-left: 100px;
+}
+.button{
+font-size: 25px;
+padding-right: 250px;
+padding: 10px 20px;
+background-color:aliceblue;
+border-radius: 35px;
+color:black;
+cursor: pointer;
+}
+.button:hover{
+    background-color:palegreen;
+    color:black;
+}
+
+.inform {
+    background-image: url(https://wallpaperaccess.com/full/3014715.jpg);
+    background-size: cover;
+    padding: 10px 10px;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+.forming{
+    color: aliceblue;
+    padding: 50px 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 25px;
+    height: 60%;
+    width: 50%;
+}
+
+.parent{
+    border-radius: 10px;
+    margin: 30px;
+    color: black;
+    background-color: aliceblue;
+    padding: 30px 10px;
+    height: 80%;
+    width: 46%;
+}
+.parent:hover{
+    height: 90%;
+    width: 60%;
+    background-color: darksalmon;
+    color: darkblue;
+}
+.child{
+    border-radius: 10px;
+    margin:30px;
+    color: black;
+    background-color: aliceblue;
+    padding: 30px 10px;
+    height: 80%;
+    width: 50%;
+    margin-top: -410px;
+    margin-left: 500px;
+}
+.child:hover{
+    height: 90%;
+    width: 60%;
+    background-color: darksalmon;
+    color: darkblue;
+}
+.child1{
+    border-radius: 10px;
+    margin: 30px;
+    color: black;
+    background-color: aliceblue;
+    padding: 30px 10px;
+    height: 80%;
+    width: 50%;
+    margin-top: -410px;
+    margin-left: 970px;
+}
+.child1:hover{
+    height: 90%;
+    width: 60%;
+    background-color: darksalmon;
+    color: darkblue;
+}
+.pics { 
+    background-color:cadetblue;
+    background-size: cover;
+    padding:10px 20px;
+    height: 100vh;
+    width: 98.5%;
+}
+.title{
+    color:aliceblue;
+    margin-top:5px;
+    font-size:25px;
+    height:70%;
+    width:100%;
+}
+.firstline{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    'pic1 pic2 pic3'
+    'pic4 pic5 pic6';
+}
+.pic1{
+    padding-left: 30px;
+    cursor: pointer;
+    grid-area: pic1;
+    grid-template-rows: repeat(2,1fr);
+}
+.pic1:hover{
+   width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+.pic2{ 
+    grid-area: pic2;
+    cursor: pointer;
+}
+.pic2:hover{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+.pic3{
+    grid-column: 2/3;
+    grid-area: pic3;
+    cursor: pointer;
+}
+.pic3:hover{
+   width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+.pic4{
+     padding-left: 30px;
+    grid-area: pic4;
+    cursor: pointer;
+}
+.pic4:hover{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+.pic5{  
+    grid-area: pic5;
+    cursor: pointer;
+}
+.pic5:hover{
+   width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+.pic6{ 
+    grid-area: pic6;
+    cursor: pointer;
+}
+.pic6:hover{
+     width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+.calls {
+    background-image: url(https://i.pinimg.com/originals/82/a5/f4/82a5f49b254c118f90702d53a8fe9f3c.jpg);
+    color: white;
+    background-size: cover;
+    padding: 10px 10px;
+     height:90vh;
+    width: 100%;
+    display: flex;
+}
+.chefsdata{
+    color: aliceblue;
+    padding: 50px 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+.chef1{
+    padding-bottom: 5px;
+    width: 40%;
+    margin-left: -700px;
+    padding: 20px;
+    padding-top: 250px ;
+    color: aliceblue;
+}
+.chef1 img{
+    width: 100%;
+    height: 100%;
+}
+.chef1:hover{
+    cursor: pointer;
+    width:70% ;
+}
+.chef2{
+   padding-bottom: 5px;
+    margin-top: 230px;
+    margin-left: 10px;
+    padding: 20px;
+}
+.chef2 img{
+    width: 100%;
+    height:100%;
+}
+.chef2:hover{
+    cursor: pointer;
+    width:70% ;
+}
+.chef3 img{
+    width: 100%;
+    height: 100%;
+}
+.chef3{
+     padding-bottom: 5px;
+    margin-top: 230px;
+    padding: 20px;
+}
+.chef3:hover{
+    cursor: pointer;
+    width:70% ;
+}
+.details{
+    background-color:aquamarine;
+    padding: 10px 10px;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+}
+.contactus{
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+iframe{
+    width:180% ;
+    height:75%;
+}
+.contacts{
+    margin-left: -10px;
+    height: 100vh;
+    width: 200vh;
+    display: flex;
+    margin-top: 5px;
+}
+.form{
+    background-color:rgb(119, 146, 153);
+    padding: 10px 10px;
+    text-align: center;
+    height:100%;
+    width: 100%;
+    display: flex;
+}
+.enter{
+    margin-left: -250px;
+    margin-top: 70px;
+    width: 50%;
+}
+.enter1{
+     width: 50%;
+}
+.address{
+    margin-left: -100px;
+    margin-top: 50px;
+    width: 50%;
+}
+.lastpage{
+    background-color:lightpink;
+    display: flex;
+    height: 70%;
+    width: 102%;
+}
+.current{
+   margin-left: 50px; 
+   margin-top: 30px;
+}
+.useful{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.useful a:hover{
+    color:darkblue;
+}
+.ourservices{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.ourservices a:hover{
+    color:darkblue;
+}
+.news{
+    margin-top: 105px;
+    margin-left: 70px;
+    margin-right: 10px;
+    padding-right: 20px;
+}
+button{
+font-size: 25px;
+padding-right: 250px;
+padding: 10px 20px;
+background-color:rgb(32, 178, 168);
+border-radius: 35px;
+color:aliceblue;
+cursor: pointer;
+text-align: center;
+font-display:center ;
+}
+.down{
+    margin-top: 420px;
+    margin-left: -930px;
+}
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 12px;
+    width: 195vh;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  /* .hamburger {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 999;
+  }
+
+  .navlinks {
+    display: none;
+    flex-direction: column;
+    background-color: burlywood;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .navlinks.show {
+    display: flex;
+  } */
+
+  /* .navlinks {
+    display: none; 
+    flex-direction: column;
+    background-color: burlywood;
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+    padding: 20px 0;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 998;
+  } */
+.hamburger {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 999;
+  }
+
+  .navlinks {
+    display: none; 
+    flex-direction: column;
+    background-color: burlywood;
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+    padding: 20px 0;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 998;
+  }
+
+  .navlinks.show {
+    display: flex; 
+  }
+
+  .navlinks a {
+    font-size: 18px;
+    padding: 10px 0;
+    color: black;
+  }
+
+  .hovering {
+    margin: 10px auto;
+  }
+  fieldset {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    text-align: center;
+  }
+
+  .nav {
+    flex-direction: column;
+    top: 0;
+    position: static;
+  }
+
+  .navbar {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* .navlinks {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    text-align: center;
+  } */
+
+  .hovering, .hovering1 {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  .container {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    background-size: cover;
+    padding: 20px 10px;
+  }
+
+  .name {
+    padding-top: 80px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .animation img {
+    width: 350px;
+    height: 350px;
+    margin: 20px auto;
+  }
+
+  .chicken {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .su, .image {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+   .su,li{
+    margin-top: 20px;
+    font-size:25px;
+   }
+  .image img {
+    width: 90%;
+    height: auto;
+  }
+
+  .home {
+    display: block;
+    padding: 10px;
+    background-size: cover;
+  }
+
+  .page {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  .first, .second, .third {
+    width: 90%;
+    margin: 20px auto;
+    height: auto;
+    font-size: 14px;
+  }
+  .first:hover {
+    background-color:blanchedalmond;
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rosybrown;
+
+}
+.second:hover {
+    background-color:bisque;
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rosybrown;
+}
+.third:hover {
+    background-color:bisque;
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rosybrown;
+}
+
+  .listitems, .new, .function, .reserve, .inform, .form, .calls,  .lastpage, .pics {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .details{
+    display: block;
+    width: 100%;
+  }
+
+  .list, .allItems1, .allItems2, .allItems3 {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 450px;
+    margin: 0;
+  }
+  .sp, .dish, .plate, .festival, .booking, .forming, .chefsdata, .chef1, .chef2, .chef3, .contactus, .contacts,
+  .address, .enter, .current, .useful, .ourservices, .news {
+    width: 100%;
+    margin: 2px auto;
+    padding: 10px;
+    text-align: center;
+  }
+  .parent, .child, .child1 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+   .reserve,input{
+     width: 100% !important;
+    margin: 10px auto;
+    display: block;
+   }
+  input, textarea, .enter1 {
+    width: 90% !important;
+    margin: 10px auto;
+    display: block;
+  }
+  .button{
+    width: 30% !important;
+  }
+  .button1{
+     width: 30% !important;
+  }
+   .news, input{
+     width: 50% !important;
+   }
+  .firstline {
+    display: inline;
+  }
+
+  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6 {
+    width: 100%;
+    height: 50% !important;
+    padding: 10px 100px;
+  }
+   .pic1, .pic2, .pic3, .pic4, .pic5, .pic6:hover{
+    width: 100%;
+   }
+
+  .down {
+    margin: 20px 300px;
+  }
+
+  button {
+    width: 80%;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h1,p {
+    font-size: 30px;
+  }
+  h2 ,h3{
+    font-size: 30px;
+  }
+}
