@@ -329,9 +329,6 @@ fieldset{
     padding-right:180px;
     margin-top: 250px;
 }
-p{
-    font-size: medium;
-}
 .function {
     background-image: url(https://wallpapercave.com/wp/wp1874163.jpg);
     color: white;
@@ -684,7 +681,7 @@ font-display:center ;
     margin-top: 420px;
     margin-left: -930px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px)and (min-width: 200px){
   body {
     font-size: 12px;
     width: 195vh;
@@ -693,39 +690,7 @@ font-display:center ;
     padding: 0;
     overflow-x: hidden;
   }
-  /* .hamburger {
-    display: block;
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    z-index: 999;
-  }
-
-  .navlinks {
-    display: none;
-    flex-direction: column;
-    background-color: burlywood;
-    width: 100%;
-    padding: 10px;
-  }
-
-  .navlinks.show {
-    display: flex;
-  } */
-
-  /* .navlinks {
-    display: none; 
-    flex-direction: column;
-    background-color: burlywood;
-    width: 100%;
-    text-align: center;
-    gap: 10px;
-    padding: 20px 0;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    z-index: 998;
-  } */
+  
 .hamburger {
     display: block;
     position: absolute;
@@ -779,14 +744,6 @@ font-display:center ;
     flex-direction: column;
     align-items: center;
   }
-
-  /* .navlinks {
-    flex-direction: column;
-    gap: 10px;
-    margin: 0;
-    text-align: center;
-  } */
-
   .hovering, .hovering1 {
     width: 80%;
     margin: 10px auto;
@@ -885,11 +842,16 @@ font-display:center ;
     padding: 10px 450px;
     margin: 0;
   }
-  .sp, .dish, .plate, .festival, .booking, .forming, .chefsdata, .chef1, .chef2, .chef3, .contactus, .contacts,
+  .sp, .dish, .plate, .festival, .booking, .forming, .chefsdata, .chef1, .chef2, .chef3, .contactus,.contacts,
   .address, .enter, .current, .useful, .ourservices, .news {
     width: 100%;
     margin: 2px auto;
     padding: 10px;
+    text-align: center;
+  }
+  .contacts{
+    height: 100%;
+    width: 90%;
     text-align: center;
   }
   .parent, .child, .child1 {
@@ -950,3 +912,4 @@ font-display:center ;
     font-size: 30px;
   }
 }
+
