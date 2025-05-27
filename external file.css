@@ -46,14 +46,14 @@ fieldset{
     cursor: pointer; 
 }
 
- .hamburger {
+ /* .hamburger {
   font-size: 30px;
   background: none;
   border: none;
   color: black;
   cursor: pointer;
-  display: none; /* Default hidden */
-}
+  display: none; 
+} */
  .name {
    padding-top: 200px;
    margin-left: 50px;
@@ -582,7 +582,7 @@ cursor: pointer;
     height: 100%;
 }
 .chef3{
-     padding-bottom: 5px;
+    padding-bottom: 5px;
     margin-top: 230px;
     padding: 20px;
 }
@@ -681,24 +681,261 @@ font-display:center ;
     margin-top: 420px;
     margin-left: -930px;
 }
-@media screen and (max-width: 450px)and (min-width: 200px){
+ @media screen and (max-width: 299px) and (min-width: 200px) {
   body {
-    font-size: 12px;
-    width: 195vh;
+    font-size: 10px;
+    width: 100em;
     height: auto;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
-  
-.hamburger {
-    display: block;
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    z-index: 999;
+
+  h1 {
+    font-size: 20px;
   }
 
+  .container {
+    height: auto;
+    width: 100vw;
+    background-size: cover;
+  }
+
+  .nav,
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    margin: 0;
+  }
+
+  .navlinks {
+    display: none;
+  }
+
+  .name {
+    padding-top: 80px;
+    margin-left: 5px;
+    font-size: 16px;
+  }
+
+  .hovering, .hovering1, .first, .second,.third,.allItems1,.allItems2,.allItems3,.chef1,.chef2,
+  .chef3,.plate,.dish,.sp,.list,.chefsdata,.forming,.parent,.child,.child1,.booking,
+  .festival {
+    width: 95%;
+    margin: 10px auto;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  .animation img {
+    width: 25vh;
+    height: 25vh;
+    margin: 10px auto;
+  }
+
+  .firstline {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      'pic1'
+      'pic2'
+      'pic3'
+      'pic4'
+      'pic5'
+      'pic6';
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  .lastpage {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .current,
+  .useful,
+  .ourservices,
+  .news {
+    margin: 10px 5px;
+    text-align: center;
+  }
+
+  .button,
+  button {
+    width: 90%;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .down {
+    margin: 10px auto;
+  }
+} 
+ @media screen and (min-width: 370px) and (max-width: 430px) {
+  body {
+    font-size: 12px;
+    width: 120vh;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .container {
+    height: auto;
+    width: 100vw;
+    background-size: cover;
+  }
+
+  .nav,
+  .navbar,
+  .navlinks {
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .name {
+    padding-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+  }
+
+  .hovering,
+  .hovering1 {
+    width: 80%;
+    height: auto;
+    font-size: 14px;
+    margin: 10px auto;
+  }
+
+  .chicken {
+    grid-template-areas: 
+      'su' 
+      'image';
+    flex-direction: column;
+    height: auto;
+  }
+
+  .image {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .image img {
+    width: 90%;
+  }
+
+  .su {
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .animation img {
+    width: 30vh;
+    height: 30vh;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .home{
+    flex-direction: row;
+    height: 90em;
+  }
+  .listitems,
+  .new,
+  .function,
+  .inform,
+  .calls,
+  .form {
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+    padding: 10px;
+  }
+  .details{
+    height: 80em;
+    width: 100vw;
+    padding: 10px;
+  }
+
+  .list,h2.allItems1,.allItems2,.allItems3{
+    padding-left: 600px;
+  }
+
+  .page,.first,.second,.third,.dish,.sp,.plate,.booking,.festival,
+  .forming,.parent,.child,.child1,.chefsdata,.chef1, .chef2, .chef3, 
+  .contactus,.enter,.enter1,.address,.lastpage,.current, .useful,.ourservices,
+  .news,.down
+   {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .contacts iframe {
+    width: 100%;
+    height: 65em;
+  }
+
+  .firstline {
+    display: block;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3,
+  .pic4,
+  .pic5,
+  .pic6 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .button,
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    width: auto;
+  }
+
+  input,
+  textarea {
+    font-size: 14px;
+    margin: 10px auto;
+    width: 80%;
+    display: block;
+  }
+} 
+
+ @media screen and (max-width: 430px)and (min-width: 200px){ 
+  body {
+    font-size: 12px;
+    width: 100em;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
   .navlinks {
     display: none; 
     flex-direction: column;
@@ -910,6 +1147,208 @@ font-display:center ;
   }
   h2 ,h3{
     font-size: 30px;
+  }
+} 
+
+@media screen and (min-width: 381px) and (max-width: 576px) {
+  body {
+    width: 100em;
+    height: 100vh;
+    font-size: 14px;
+  }
+   fieldset{
+    width: 100em;
+   }
+  h1 {
+    font-size: 26px;
+  }
+
+  .name {
+    padding-top: 80px;
+    font-size: 20px;
+  }
+
+  .hovering, .hovering1,
+  .first, .second, .third,
+  .allItems1, .allItems2, .allItems3,
+  .chef1, .chef2, .chef3,
+  .plate, .dish, .sp, .list,
+  .chefsdata, .forming, .parent,
+  .child, .child1, .booking, .festival {
+    font-size: 20px;
+  }
+
+  .animation img {
+    width: 35vh;
+    height: 35vh;
+  }
+
+  .button, button {
+    font-size: 20px;
+  }
+} 
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  body {
+    height: auto;
+    width: 100em;
+    font-size: 16px;
+  }
+  fieldset{
+    width: 100em;
+  }
+  h1 {
+    font-size: 28px;
+  }
+
+  .name {
+    padding-top: 60px;
+    font-size: 22px;
+  }
+
+  .nav, .navbar {
+    flex-direction: row;
+  }
+
+  .navlinks {
+    display: block;
+  }
+
+  .animation img {
+    width: 40vh;
+    height: 40vh;
+  }
+
+  .firstline {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      'pic1 pic2'
+      'pic3 pic4'
+      'pic5 pic6';
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  body {
+    width: 100em;
+    font-size: 18px;
+  }
+  fieldset{
+    width: 100em;
+  }
+
+  h1,h2,h3{
+    font-size: 32px;
+  }
+  p,a{
+    font-size: 28px;
+  }
+  .name {
+    font-size: 24px;
+  }
+
+  .animation img {
+    width: 45vh;
+    height: 45vh;
+  }
+  .firstline {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2;
+    grid-template-areas:
+      'pic1 pic2 pic3'
+      'pic4 pic5 pic6' ;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  body {
+    width: 100em;
+    font-size: 20px;
+  }
+   fieldset{
+    width: 100em;
+   }
+  h1 {
+    font-size: 36px;
+  }
+
+  .animation img {
+    width: 50vh;
+    height: 50vh;
+  }
+
+  .firstline {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      'pic1 pic2 pic3'
+      'pic4 pic5 pic6';
+  }
+}
+@media screen and (min-width: 1201px) {
+  body {
+    width: 200em;
+    height: 50em;
+    font-size: 22px;
+  }
+  .container,.chicken,.home, .reserve,.listitems,.new,.function,.inform,.calls,.details,.form,.lastpage{
+    height: 70em;
+  }
+ .pics{
+    height: 90em;
+  }
+    fieldset{
+        height: 10em;
+        width: 200em;
+    }
+  h1,h2,h3 {
+    font-size: 80px;
+  }
+  .image{
+    padding-top: 170px;
+    padding-right: 600px;
+    display: inline-block;
+  }
+  .name{
+    margin-top:100px ;
+    margin-left: 350px;
+  }
+  .animation img {
+    width: 75vh;
+    height: 75vh;
+    margin-left: 100em;
+  }
+  .hovering,.hovering1{
+    font-size: 25px;
+    height: 5em;
+    width: 15em;
+  }
+  .booking img,.festival{
+    width: 80%;
+    height: 100%;
+  }
+  .first, .second, .third {
+    width: 30%;
+    margin: 20px 20px;
+    height: 25%;
+    font-size: 14px;
+    display:inline-block;
+  }
+.allItems1,.allItems2,.allItems3{
+    margin-top: 100px;
+    margin-right: 300px;
+  }
+  .firstline {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      'pic1 pic2 pic3'
+      'pic4 pic5 pic6';
+  }
+  .navlinks {
+    display:flex;
+    gap: 40px;
+     margin-left: 1700px;
+  }
+  p,a,li{
+    font-size: 65px;
   }
 }
 
