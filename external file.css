@@ -3,7 +3,7 @@ body ,html{
     overflow-x: hidden;
 }
 p{
-    font-size: 15px;
+    font-size: 20px;
 }
 a{
     font-size: 20px;
@@ -47,14 +47,6 @@ fieldset{
     cursor: pointer; 
 }
 
- /* .hamburger {
-  font-size: 30px;
-  background: none;
-  border: none;
-  color: black;
-  cursor: pointer;
-  display: none; 
-} */
  .name {
    padding-top: 200px;
    margin-left: 50px;
@@ -112,12 +104,12 @@ fieldset{
     height: 90vh;
     width: 100%;
 }
-/* @media screen and (min-width: 430px){
+@media screen and (min-width: 430px){
     .chicken{
         background-image: url(https://www.dawnvale.com/wp-content/uploads/news/0218/perfect-bar-atmosphere-lighting.jpg);
 
     }
-} */
+}
 
 
 .animation img{
@@ -158,7 +150,7 @@ fieldset{
 }
 
 .home {
-    background-image: url(https://thearchitectsdiary.com/wp-content/uploads/2018/06/Best-Restaurant-Interior-Design-In-India-3.jpg);
+    background-image: url(https://img.freepik.com/premium-photo/fancy-restaurant-background_1052268-495.jpg);
     color:aliceblue;
     background-size: cover;
     padding: 10px 10px;
@@ -680,7 +672,7 @@ font-display:center ;
 }
 .down{
     margin-top: 420px;
-    margin-left: -930px;
+    margin-left: -1030px;
 }
  @media screen and (max-width: 299px) and (min-width: 200px) {
   body {
@@ -780,395 +772,147 @@ font-display:center ;
   .down {
     margin: 10px auto;
   }
-} 
- @media screen and (min-width: 370px) and (max-width: 430px) {
-  body {
-    font-size: 12px;
-    width: 120vh;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
+}  
 
-  h1 {
-    font-size: 24px;
-  }
-
-  .container {
-    height: auto;
-    width: 100vw;
-    background-size: cover;
-  }
-
-  .nav,
-  .navbar,
-  .navlinks {
-    flex-direction: column;
-    align-items: center;
-    position: static;
-    margin: 0;
-    padding: 10px;
-  }
-
-  .name {
-    padding-top: 100px;
-    margin-left: 10px;
-    text-align: center;
-  }
-
-  .hovering,
-  .hovering1 {
-    width: 80%;
-    height: auto;
-    font-size: 14px;
-    margin: 10px auto;
-  }
-
-  .chicken {
-    grid-template-areas: 
-      'su' 
-      'image';
-    flex-direction: column;
-    height: auto;
-  }
-
-  .image {
-    width: 100%;
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  .image img {
-    width: 90%;
-  }
-
-  .su {
-    width: 90%;
-    margin: auto;
-    font-size: 18px;
-    text-align: justify;
-  }
-
-  .animation img {
-    width: 30vh;
-    height: 30vh;
-    margin: 0 auto;
-    display: block;
-  }
-
-  .home{
-    flex-direction: row;
-    height: 90em;
-  }
-  .listitems,
-  .new,
-  .function,
-  .inform,
-  .calls,
-  .form {
-    flex-direction: column;
-    height: auto;
-    width: 100vw;
-    padding: 10px;
-  }
-  .details{
-    height: 80em;
-    width: 100vw;
-    padding: 10px;
-  }
-
-  .list,h2.allItems1,.allItems2,.allItems3{
-    padding-left: 600px;
-  }
-
-  .page,.first,.second,.third,.dish,.sp,.plate,.booking,.festival,
-  .forming,.parent,.child,.child1,.chefsdata,.chef1, .chef2, .chef3, 
-  .contactus,.enter,.enter1,.address,.lastpage,.current, .useful,.ourservices,
-  .news,.down
-   {
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-  }
-  .contacts iframe {
-    width: 100%;
-    height: 65em;
-  }
-
-  .firstline {
-    display: block;
-  }
-
-  .pic1,
-  .pic2,
-  .pic3,
-  .pic4,
-  .pic5,
-  .pic6 {
-    width: 90%;
-    margin: 10px auto;
-  }
-
-  .button,
-  button {
-    font-size: 18px;
-    padding: 10px 20px;
-    width: auto;
-  }
-
-  input,
-  textarea {
-    font-size: 14px;
-    margin: 10px auto;
-    width: 80%;
-    display: block;
-  }
-} 
-
- @media screen and (max-width: 430px)and (min-width: 200px){ 
-  body {
-    font-size: 12px;
-    width: 100em;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-  .navlinks {
-    display: none; 
-    flex-direction: column;
-    background-color: burlywood;
-    width: 100%;
-    text-align: center;
-    gap: 10px;
-    padding: 20px 0;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    z-index: 998;
-  }
-
-  .navlinks.show {
-    display: flex; 
-  }
-
-  .navlinks a {
-    font-size: 18px;
-    padding: 10px 0;
-    color: black;
-  }
-
-  .hovering {
-    margin: 10px auto;
-  }
-  fieldset {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    text-align: center;
-  }
-
-  .nav {
-    flex-direction: column;
-    top: 0;
-    position: static;
-  }
-
-  .navbar {
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .hovering, .hovering1 {
-    width: 80%;
-    margin: 10px auto;
-    font-size: 14px;
-    padding: 20px;
-  }
-
-  .container {
-    width: 100%;
-    height: auto;
-    margin-top: 0;
-    background-size: cover;
-    padding: 20px 10px;
-  }
-
-  .name {
-    padding-top: 80px;
-    text-align: center;
-    margin-left: 0;
-  }
-
-  .animation img {
-    width: 350px;
-    height: 350px;
-    margin: 20px auto;
-  }
-
-  .chicken {
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 10px;
-  }
-  .su, .image {
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-  }
-   .su,li{
-    margin-top: 20px;
-    font-size:25px;
-   }
-  .image img {
-    width: 90%;
-    height: auto;
-  }
-
-  .home {
-    display: block;
-    padding: 10px;
-    background-size: cover;
-  }
-
-  .page {
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-  }
-  .first, .second, .third {
-    width: 90%;
-    margin: 20px auto;
-    height: auto;
-    font-size: 14px;
-  }
-  .first:hover {
-    background-color:blanchedalmond;
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 16px rosybrown;
-
-}
-.second:hover {
-    background-color:bisque;
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 16px rosybrown;
-}
-.third:hover {
-    background-color:bisque;
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 16px rosybrown;
-}
-
-  .listitems, .new, .function, .reserve, .inform, .form, .calls,  .lastpage, .pics {
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 10px;
-  }
-  .details{
-    display: block;
-    width: 100%;
-  }
-
-  .list, .allItems1, .allItems2, .allItems3 {
-    width: 100%;
-    font-size: 14px;
-    padding: 10px 450px;
-    margin: 0;
-  }
-  .sp, .dish, .plate, .festival, .booking, .forming, .chefsdata, .chef1, .chef2, .chef3, .contactus,.contacts,
-  .address, .enter, .current, .useful, .ourservices, .news {
-    width: 100%;
-    margin: 2px auto;
-    padding: 10px;
-    text-align: center;
-  }
-  .contacts{
-    height: 100%;
-    width: 90%;
-    text-align: center;
-  }
-  .parent, .child, .child1 {
-    width: 90%;
-    margin: 10px auto;
-  }
-
-  iframe {
-    width: 100%;
-    height: 200px;
-  }
-   .reserve,input{
-     width: 100% !important;
-    margin: 10px auto;
-    display: block;
-   }
-  input, textarea, .enter1 {
-    width: 90% !important;
-    margin: 10px auto;
-    display: block;
-  }
-  .button{
-    width: 30% !important;
-  }
-  .button1{
-     width: 30% !important;
-  }
-   .news, input{
-     width: 50% !important;
-   }
-  .firstline {
-    display: inline;
-  }
-
-  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6 {
-    width: 100%;
-    height: 50% !important;
-    padding: 10px 100px;
-  }
-   .pic1, .pic2, .pic3, .pic4, .pic5, .pic6:hover{
-    width: 100%;
-   }
-
-  .down {
-    margin: 20px 300px;
-  }
-
-  button {
-    width: 80%;
-    font-size: 16px;
-    padding: 10px;
-  }
-
-  h1,p {
-    font-size: 30px;
-  }
-  h2 ,h3{
-    font-size: 30px;
-  }
-} 
+ /* @media screen and (max-width: 430px)and (min-width: 200px){ }  */
+ 
 
 @media screen and (min-width: 381px) and (max-width: 576px) {
   body {
-    width: 100em;
-    height: 100vh;
+    width: 120em;
+    height: 200em;
     font-size: 14px;
   }
+  .container,.chicken,.listitems,.new,.function,.inform, .form,.home,.calls,.details,.lastpage{
+    height: 50em;
+  }
+  .reserve{
+    height: 27em;
+  }
+   .pics{
+    height: 92em;
+  }
+  .pics img{
+    width: 30em;
+    height: 15em;
+  }
+  .pic3,.pic5{
+    margin-left:1em;
+  }
+  .pic4{
+    margin-left: -1em;
+  }
+  .su{
+    margin-top: 5em;
+    margin-left: 2em;
+  }
+  .image{
+    margin-right:5em ;
+  }
    fieldset{
-    width: 100em;
+    width: 120em;
    }
-  h1 {
+  h1 ,p{
     font-size: 26px;
   }
-
   .name {
-    padding-top: 80px;
+    padding-top: 250px;
     font-size: 20px;
   }
-
+  .first,.second,.third{
+    width: 20em;
+    height: 15em;
+    border-radius: 20%;
+  }
+  .navlinks{
+    margin-left: auto;
+  }
+  .second{
+    margin-left: 28em;
+    margin-top: -18em;
+  }
+  .third{
+    margin-left: 54em;
+    margin-top: -26em;
+  }
+  .plate{
+    margin-top: 9em;
+    width:80em;
+    margin-left: -75em;
+  }
+  .dish{
+    margin-top: -18em;
+    margin-left: -39em;
+  }
+  .list{
+    text-align: center;
+  }
+  .allItems1,.allItems2,.allItems3{
+    margin-top: 3em;
+    padding-left: 5%;
+  }
+  .booking img{
+    width: 40em;
+  }
+  .festival{
+    margin-top: auto;
+  }
+  .parent,.child,.child1{
+   border-radius: 10%;
+  }
+  .parent{
+    margin-left:1em;
+  }
+  .child{
+   margin-left: 26em;
+   margin-top:-21em;
+  }
+  .child1{
+    margin-left: 53em;
+     margin-top:-21em;
+  }
+  .reserve input{
+    width: 10em;
+  }
+  input{
+    width: 50%;
+    height: 2em;
+    font-size: 1.8em;
+  }
+   .chef1{
+     margin-left: -30em;
+   }
+   .current{
+    margin-top:10em ;
+    margin-left: 1em;
+  }
+  .useful,.ourservices{
+    margin-top: 15em;
+    margin-left:5em;
+  }
+  .news{
+    margin-top: 15em;
+    margin-left: 3em;
+  }
+  .down {
+    margin-top: auto;
+    margin-left:-80em;
+   }
+   ion-icon{
+    font-size:1.8em;
+   }
+   textarea{
+    height: 3em;
+    width: 100%;
+   }
+   .button,.button1{
+     width: 10em;
+     height:5em;
+   }
+   button{
+    width: 10em;
+    height:4em;
+   }
   .hovering, .hovering1,
   .first, .second, .third,
   .allItems1, .allItems2, .allItems3,
@@ -1178,10 +922,17 @@ font-display:center ;
   .child, .child1, .booking, .festival {
     font-size: 20px;
   }
-
   .animation img {
     width: 35vh;
     height: 35vh;
+  }
+  .firstline {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      'pic1 pic2'
+      'pic3 pic4'
+      'pic5 pic6';
   }
 
   .button, button {
@@ -1257,6 +1008,7 @@ font-display:center ;
     width: 150em;
   }
   .reserve{
+  background-image: url(https://img.freepik.com/premium-photo/fancy-restaurant-background_1052268-495.jpg);
     height: 35em;
     width: 95em;
   }
