@@ -682,8 +682,8 @@ font-display:center ;
   font-size: 0.75rem; 
   width: 100rem; 
   height: auto;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   overflow-x: hidden;
 }
 .navlinks {
@@ -728,7 +728,7 @@ fieldset {
 }
 .hovering, .hovering1 {
   width: 80%;
-  margin: 0.625rem auto;
+  margin: 0.625rem 0em;
   font-size: 0.875rem;
   padding: 1.25rem; 
 }
@@ -741,8 +741,7 @@ fieldset {
 }
 .name {
   padding-top: 5rem;
-  text-align: center;
-  margin-left: 0;
+  margin-left: 35em;
 }
 .animation img {
   width: 21.875rem; 
@@ -758,14 +757,15 @@ fieldset {
 .su, .image {
   width: 100%;
   padding: 0.625rem; 
-  text-align: center;
+  /* text-align: center; */
 }
 .su, li {
   margin-top: 1.25rem; 
-  font-size: 1.5625rem; 
+  font-size: 1.5700rem; 
 }
 .image img {
-  width: 90%;
+  width: 70%;
+  margin-left: -30em;
   height: auto;
 }
 .home {
@@ -779,9 +779,9 @@ fieldset {
   text-align: center;
 }
 .first, .second, .third {
-  width: 90%;
-  margin: 1.25rem auto; 
-  height: auto;
+  width: 70%;
+  margin: 1.25rem 1em; 
+  height: 60%;
   font-size: 0.875rem; 
 }
 .first:hover {
@@ -815,7 +815,7 @@ fieldset {
 .allItems1, .allItems2, .allItems3 {
   width: 100%;
   font-size: 0.875rem; 
-  padding: 1rem 50rem; 
+  padding: 1rem 35rem; 
   margin: 0;
 }
 .sp, .dish, .plate, .festival, .booking, .forming, .chefsdata, .contactus, .contacts,
@@ -826,10 +826,11 @@ fieldset {
   text-align: center;
 }
 .chef1 {
-  margin-left: 12.5rem; 
+ margin-left: 1rem; 
+ width: auto;
 }
 .chefsdata {
-  margin-top: 1.25rem; 
+  margin-top: 1.0rem; 
   margin-left: 0;
 }
 .chef1, .chef2, .chef3 {
@@ -847,7 +848,8 @@ fieldset {
 }
 iframe {
   width: 100%;
-  height: 18rem; 
+  height: 25rem; 
+  margin-left: -3em;
 }
 .reserve, input {
   width: 100% !important;
@@ -874,32 +876,32 @@ input, textarea, .enter1 {
     'pic5 pic6';
 }
 .pics img {
-  width: 30rem; 
+  width: 38rem; 
   height: 15rem; 
   padding-left: 3rem; 
 }
 .pic3, .pic5 {
-  margin-left: 1rem; 
+  margin-left: 1.6rem; 
 }
 .pic4 {
-  margin-left: -1rem;
+  margin-left: -1.8rem;
 }
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6:hover {
   width: 100%;
 }
 .down {
-  margin: 1.25rem 18.75rem; 
+  margin: 1.25rem 30.75rem; 
 }
 button {
   width: 80%;
   font-size: 1rem; 
   padding: 0.625rem; 
 }
-h1, p {
-  font-size: 1.875rem; 
+h1, p ,li{
+  font-size: 1.9rem; 
 }
 h2, h3 {
-  font-size: 1.875rem; 
+  font-size: 1.9rem; 
 }
 }
 @media screen and (width > 401px) and (width < 770px) {
@@ -1051,7 +1053,8 @@ h2, h3 {
     text-align: center;
   }
   .chef1 {
-    margin-left: 12.5rem;
+    margin-left: 1rem;
+    width: auto;
   }
   .chefsdata {
     margin-top: 1.25rem;
@@ -1072,7 +1075,8 @@ h2, h3 {
   }
   iframe {
     width: 100%;
-    height: 18rem;
+    height: 28rem;
+    margin-left:-1em;
   }
   .reserve, input {
     width: 100% !important;
@@ -1099,29 +1103,29 @@ h2, h3 {
       'pic5 pic6';
   }
   .pics img {
-    width: 30rem;
+    width: 45rem;
     height: 15rem;
-    padding-left: 3rem;
+    padding-left: 1.5rem;
   }
   .pic3, .pic5 {
-    margin-left: 1rem;
+    margin-left: 1.6rem;
   }
   .pic4 {
-    margin-left: -1rem;
+    margin-left: -1.6rem;
   }
   .pic1, .pic2, .pic3, .pic4, .pic5, .pic6:hover {
     width: 100%;
   }
   .down {
-    margin: 1.25rem 18.75rem;
+    margin: 1.25rem 30.75rem;
   }
   button {
     width: 80%;
     font-size: 1rem;
     padding: 0.625rem;
   }
-  h1, p {
-    font-size: 1.875rem;
+  h1, p ,li{
+    font-size: 1.9rem;
   }
   h2, h3 {
     font-size: 1.875rem;
@@ -1347,7 +1351,7 @@ h2, h3 {
   }
   .dish{
     margin-top: -8em;
-    margin-left: -39em;
+    margin-left: -33em;
   }
   .list{
     text-align: center;
@@ -1406,7 +1410,7 @@ h2, h3 {
    }
    .details iframe{
     height: 40em;
-    width: 100em ;
+    width: 500vw ;
    }
   .animation img {
     width: 75vh;
