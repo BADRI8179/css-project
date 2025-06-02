@@ -1,3 +1,4 @@
+
 body ,html{
     width: auto;
     overflow-x: hidden;
@@ -311,16 +312,17 @@ fieldset{
     padding: 50px 60px;
     padding-top:650px;
     font-size: 25px;
-    margin:-400px;
+    margin:-300px;
     height: 60%;
-     width: 40%;
+    width: 40%;
 }
 
-.plate {
-    padding-left:-50px;
-    margin-left: -1070px;
-    padding-right:180px;
-    margin-top: 250px;
+.plate{
+    padding-left:50px;
+    margin-left: -70em;
+    padding-right:80px;
+    margin-top: 300px;
+    height: auto;
 }
 .function {
     background-image: url(https://wallpapercave.com/wp/wp1874163.jpg);
@@ -674,139 +676,264 @@ font-display:center ;
     margin-top: 420px;
     margin-left: -1030px;
 }
- @media screen and (max-width: 299px) and (min-width: 200px) {
+
+@media screen and (width > 200px)and (width < 400px) {
+ body {
+  font-size: 0.75rem; 
+  width: 100rem; 
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.navlinks {
+  display: none;
+  flex-direction: column;
+  background-color: burlywood;
+  width: 100%;
+  text-align: center;
+  gap: 0.625rem;
+  padding: 1.25rem 0; 
+  position: absolute;
+  top: 3.75rem;
+  left: 0;
+  z-index: 998;
+}
+.navlinks.show {
+  display: flex;
+}
+.navlinks a {
+  font-size: 1.125rem; 
+  padding: 0.625rem 0; 
+  color: black;
+}
+.hovering {
+  margin: 0.625rem auto; 
+}
+fieldset {
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  text-align: center;
+}
+.nav {
+  flex-direction: column;
+  top: 0;
+  position: static;
+}
+.navbar {
+  margin-top: 1.25rem; 
+  flex-direction: column;
+  align-items: center;
+}
+.hovering, .hovering1 {
+  width: 80%;
+  margin: 0.625rem auto;
+  font-size: 0.875rem;
+  padding: 1.25rem; 
+}
+.container {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  background-size: cover;
+  padding: 1.25rem 0.625rem; 
+}
+.name {
+  padding-top: 5rem;
+  text-align: center;
+  margin-left: 0;
+}
+.animation img {
+  width: 21.875rem; 
+  height: 21.875rem; 
+  margin: 1.25rem auto; 
+}
+.chicken {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0.625rem; 
+}
+.su, .image {
+  width: 100%;
+  padding: 0.625rem; 
+  text-align: center;
+}
+.su, li {
+  margin-top: 1.25rem; 
+  font-size: 1.5625rem; 
+}
+.image img {
+  width: 90%;
+  height: auto;
+}
+.home {
+  display: block;
+  padding: 0.625rem; 
+  background-size: cover;
+}
+.page {
+  width: 100%;
+  padding: 0.625rem; 
+  text-align: center;
+}
+.first, .second, .third {
+  width: 90%;
+  margin: 1.25rem auto; 
+  height: auto;
+  font-size: 0.875rem; 
+}
+.first:hover {
+  background-color: blanchedalmond;
+  transform: translateY(-0.3125rem); 
+  box-shadow: 0 0.5rem 1rem rosybrown; 
+}
+.second:hover {
+  background-color: bisque;
+  transform: translateY(-0.3125rem);
+  box-shadow: 0 0.5rem 1rem rosybrown;
+}
+.third:hover {
+  background-color: bisque;
+  transform: translateY(-0.3125rem);
+  box-shadow: 0 0.5rem 1rem rosybrown;
+}
+.listitems, .new, .function, .reserve, .inform, .form, .calls, .lastpage, .pics {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0.625rem; 
+}
+.details {
+  display: block;
+  width: 100%;
+}
+.list {
+  text-align: start;
+}
+.allItems1, .allItems2, .allItems3 {
+  width: 100%;
+  font-size: 0.875rem; 
+  padding: 1rem 50rem; 
+  margin: 0;
+}
+.sp, .dish, .plate, .festival, .booking, .forming, .chefsdata, .contactus, .contacts,
+.address, .enter, .current, .useful, .ourservices, .news {
+  width: 100%;
+  margin: 0.125rem auto; 
+  padding: 0.625rem; 
+  text-align: center;
+}
+.chef1 {
+  margin-left: 12.5rem; 
+}
+.chefsdata {
+  margin-top: 1.25rem; 
+  margin-left: 0;
+}
+.chef1, .chef2, .chef3 {
+  margin-top: auto;
+  height: 30rem; 
+}
+.contacts {
+  height: 100%;
+  width: 90%;
+  text-align: center;
+}
+.parent, .child, .child1 {
+  width: 90%;
+  margin: 0.625rem auto; 
+}
+iframe {
+  width: 100%;
+  height: 18rem; 
+}
+.reserve, input {
+  width: 100% !important;
+  margin: 0.625rem auto; 
+  display: block;
+}
+input, textarea, .enter1 {
+  width: 90% !important;
+  margin: 0.625rem auto;
+  display: block;
+}
+.button, .button1 {
+  width: 30% !important;
+}
+.news, input {
+  width: 50% !important;
+}
+.firstline {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-template-areas:
+    'pic1 pic2'
+    'pic3 pic4'
+    'pic5 pic6';
+}
+.pics img {
+  width: 30rem; 
+  height: 15rem; 
+  padding-left: 3rem; 
+}
+.pic3, .pic5 {
+  margin-left: 1rem; 
+}
+.pic4 {
+  margin-left: -1rem;
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6:hover {
+  width: 100%;
+}
+.down {
+  margin: 1.25rem 18.75rem; 
+}
+button {
+  width: 80%;
+  font-size: 1rem; 
+  padding: 0.625rem; 
+}
+h1, p {
+  font-size: 1.875rem; 
+}
+h2, h3 {
+  font-size: 1.875rem; 
+}
+}
+@media screen and (width > 401px) and (width < 770px) {
   body {
-    font-size: 10px;
-    width: 100em;
+    font-size: 0.75rem; 
+    width: 100rem; 
     height: auto;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  .container {
-    height: auto;
-    width: 100vw;
-    background-size: cover;
-  }
-
-  .nav,
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    position: static;
-    margin: 0;
-  }
-
   .navlinks {
     display: none;
-  }
-
-  .name {
-    padding-top: 80px;
-    margin-left: 5px;
-    font-size: 16px;
-  }
-
-  .hovering, .hovering1, .first, .second,.third,.allItems1,.allItems2,.allItems3,.chef1,.chef2,
-  .chef3,.plate,.dish,.sp,.list,.chefsdata,.forming,.parent,.child,.child1,.booking,
-  .festival {
-    width: 95%;
-    margin: 10px auto;
-    font-size: 16px;
-    padding: 8px;
-  }
-
-  .image img {
-    width: 100%;
-  }
-
-  .animation img {
-    width: 25vh;
-    height: 25vh;
-    margin: 10px auto;
-  }
-
-  .firstline {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas:
-      'pic1'
-      'pic2'
-      'pic3'
-      'pic4'
-      'pic5'
-      'pic6';
-  }
-
-  iframe {
-    width: 100%;
-    height: 200px;
-  }
-
-  .lastpage {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  .current,
-  .useful,
-  .ourservices,
-  .news {
-    margin: 10px 5px;
-    text-align: center;
-  }
-
-  .button,
-  button {
-    width: 90%;
-    font-size: 16px;
-    padding: 8px;
-  }
-
-  .down {
-    margin: 10px auto;
-  }
-}  
-
-  @media screen and (max-width: 430px)and (min-width: 200px){  
-  body {
-    font-size: 12px;
-    width: 100em;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-  .navlinks {
-    display: none; 
     flex-direction: column;
     background-color: burlywood;
     width: 100%;
     text-align: center;
-    gap: 10px;
-    padding: 20px 0;
+    gap: 0.625rem; 
+    padding: 1.25rem 0; 
     position: absolute;
-    top: 60px;
+    top: 3.75rem; 
     left: 0;
     z-index: 998;
   }
-
-.navlinks.show {
-    display: flex; 
+  .navlinks.show {
+    display: flex;
   }
   .navlinks a {
-    font-size: 18px;
-    padding: 10px 0;
+    font-size: 1.125rem; 
+    padding: 0.625rem 0; 
     color: black;
   }
   .hovering {
-    margin: 10px auto;
+    margin: 0.625rem auto;
   }
   fieldset {
     flex-direction: column;
@@ -814,164 +941,155 @@ font-display:center ;
     height: auto;
     text-align: center;
   }
-
   .nav {
     flex-direction: column;
     top: 0;
     position: static;
   }
   .navbar {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     flex-direction: column;
     align-items: center;
   }
   .hovering, .hovering1 {
     width: 80%;
-    margin: 10px auto;
-    font-size: 14px;
-    padding: 20px;
+    margin: 0.625rem auto;
+    font-size: 0.875rem; 
+    padding: 1.25rem;
   }
   .container {
     width: 100%;
     height: auto;
     margin-top: 0;
     background-size: cover;
-    padding: 20px 10px;
+    padding: 1.25rem 0.625rem;
   }
   .name {
-    padding-top: 80px;
+    padding-top: 5rem;
     text-align: center;
     margin-left: 0;
   }
   .animation img {
-    width: 350px;
-    height: 350px;
-    margin: 20px auto;
+    width: 21.875rem;
+    height: 21.875rem;
+    margin: 1.25rem auto;
   }
   .chicken {
     display: block;
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 0.625rem;
   }
   .su, .image {
     width: 100%;
-    padding: 10px;
+    padding: 0.625rem;
     text-align: center;
   }
-   .su,li{
-    margin-top: 20px;
-    font-size:25px;
-   }
+  .su, li {
+    margin-top: 1.25rem;
+    font-size: 1.5625rem;
+  }
   .image img {
     width: 90%;
     height: auto;
   }
-
   .home {
     display: block;
-    padding: 10px;
+    padding: 0.625rem;
     background-size: cover;
   }
-
   .page {
     width: 100%;
-    padding: 10px;
+    padding: 0.625rem;
     text-align: center;
   }
   .first, .second, .third {
     width: 90%;
-    margin: 20px auto;
+    margin: 1.25rem auto;
     height: auto;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .first:hover {
-    background-color:blanchedalmond;
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 16px rosybrown;
-
-}
-.second:hover {
-    background-color:bisque;
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 16px rosybrown;
-}
-.third:hover {
-    background-color:bisque;
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 16px rosybrown;
-}
-  .listitems, .new, .function, .reserve, .inform, .form, .calls,  .lastpage, .pics {
+    background-color: blanchedalmond;
+    transform: translateY(-0.3125rem);
+    box-shadow: 0 0.5rem 1rem rosybrown;
+  }
+  .second:hover {
+    background-color: bisque;
+    transform: translateY(-0.3125rem);
+    box-shadow: 0 0.5rem 1rem rosybrown;
+  }
+  .third:hover {
+    background-color: bisque;
+    transform: translateY(-0.3125rem);
+    box-shadow: 0 0.5rem 1rem rosybrown;
+  }
+  .listitems, .new, .function, .reserve, .inform, .form, .calls, .lastpage, .pics {
     display: block;
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 0.625rem;
   }
-  .details{
+  .details {
     display: block;
     width: 100%;
   }
-
-  .list{
+  .list {
     text-align: start;
   }
   .allItems1, .allItems2, .allItems3 {
     width: 100%;
-    font-size: 14px;
-    padding: 1em 50em;
+    font-size: 0.875rem;
+    padding: 1rem 50rem;
     margin: 0;
   }
-  .sp, .dish, .plate, .festival, .booking, .forming, .chefsdata, .contactus,.contacts,
+  .sp, .dish, .plate, .festival, .booking, .forming, .chefsdata, .contactus, .contacts,
   .address, .enter, .current, .useful, .ourservices, .news {
     width: 100%;
-    margin: 2px auto;
-    padding: 10px;
+    margin: 0.125rem auto;
+    padding: 0.625rem;
     text-align: center;
   }
-   .chef1{
-    margin-left: 200px;
+  .chef1 {
+    margin-left: 12.5rem;
   }
-  .chefsdata{
-    margin-top: 20px;
-    margin-left: 0px;
+  .chefsdata {
+    margin-top: 1.25rem;
+    margin-left: 0;
   }
-  .chef1,.chef2,.chef3{
+  .chef1, .chef2, .chef3 {
     margin-top: auto;
-    height: 30em;
+    height: 30rem;
   }
-  .contacts{
+  .contacts {
     height: 100%;
     width: 90%;
     text-align: center;
   }
   .parent, .child, .child1 {
     width: 90%;
-    margin: 10px auto;
+    margin: 0.625rem auto;
   }
-
   iframe {
     width: 100%;
-    height: 18em;
+    height: 18rem;
   }
-   .reserve,input{
-     width: 100% !important;
-    margin: 10px auto;
+  .reserve, input {
+    width: 100% !important;
+    margin: 0.625rem auto;
     display: block;
-   }
+  }
   input, textarea, .enter1 {
     width: 90% !important;
-    margin: 10px auto;
+    margin: 0.625rem auto;
     display: block;
   }
-  .button{
+  .button, .button1 {
     width: 30% !important;
   }
-  .button1{
-     width: 30% !important;
+  .news, input {
+    width: 50% !important;
   }
-   .news, input{
-     width: 50% !important;
-   }
   .firstline {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
@@ -980,263 +1098,35 @@ font-display:center ;
       'pic3 pic4'
       'pic5 pic6';
   }
-  .pics img{
-    width: 30em;
-    height: 15em;
-    padding-left: 3em;
+  .pics img {
+    width: 30rem;
+    height: 15rem;
+    padding-left: 3rem;
   }
-  .pic3,.pic5{
-    margin-left:1em;
+  .pic3, .pic5 {
+    margin-left: 1rem;
   }
-  .pic4{
-    margin-left: -1em;
+  .pic4 {
+    margin-left: -1rem;
   }
-   .pic1, .pic2, .pic3, .pic4, .pic5, .pic6:hover{
+  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6:hover {
     width: 100%;
-   }
+  }
   .down {
-    margin: 20px 300px;
+    margin: 1.25rem 18.75rem;
   }
   button {
     width: 80%;
-    font-size: 16px;
-    padding: 10px;
+    font-size: 1rem;
+    padding: 0.625rem;
   }
-  h1,p {
-    font-size: 30px;
+  h1, p {
+    font-size: 1.875rem;
   }
-  h2 ,h3{
-    font-size: 30px;
+  h2, h3 {
+    font-size: 1.875rem;
   }
- }  
- 
-@media screen and (min-width: 381px) and (max-width: 576px) {
-  body {
-    width: 120em;
-    height: 200em;
-    font-size: 14px;
-  }
-  .container,.new,.function,.inform,.home,.details{
-    height: 80em;
-  }
-  .calls,.lastpage,.form{
-    height: auto;
-  }
-  .reserve{
-    height: 50em;
-  }
-  .chicken,.listitems{
-     height: 90em;
-  }
-   .pics{
-    height: 92em;
-  }
-  .pics img{
-    width: 30em;
-    height: 15em;
-  }
-  .pic3,.pic5{
-    margin-left:1em;
-  }
-  .pic4{
-    margin-left: -1em;
-  }
-  .su{
-    margin-top: 1em;
-    margin-left: 2em;
-  }
-  .image{
-    width: 70em;
-    margin-top: 5em;
-    margin-left: 25em;
-  }
-   fieldset{
-    width: 120em;
-   }
-  h1 ,p,li,a{
-    font-size: 36px;
-  }
-  .name {
-    padding-top: 8em;
-    font-size: 20px;
-  }
-  .first,.second,.third{
-    width: 20em;
-    height: 25em;
-    border-radius: 20%;
-  }
-  .navlinks{
-    margin-left: auto;
-  }
-  iframe{
-    height: 38em;
-  }
-  .first{
-    margin-top: 10em;
-     margin-left: 5em;
-  }
-  .second{
-    margin-left: 32em;
-    margin-top: -20em;
-  }
-  .third{
-    margin-left: 59em;
-    margin-top: -37em;
-  }
-  .plate{
-    margin-top: -29em;
-    width:80em;
-    margin-left: 5em;
-  }
-  .dish{
-    margin-top: 2em;
-    margin-left: 1em;
-  }
-    .list{
-    text-align: start;
-  }
-  .allItems1,.allItems2,.allItems3{
-    margin-bottom:-47em;
-  }
-  .new{
-    background-size: cover;
-  }
-  .booking img{
-    width: 60em;
-  }
-  .festival{
-    margin-top: auto;
-  }
-  .parent,.child,.child1{
-    height: 25em;
-    width: 20em;
-   border-radius: 10%;
-  }
-  .parent{
-    margin-left:3em;
-  }
-  .child{
-   margin-left: 29em;
-   margin-top:-21em;
-  }
-  .child1{
-    margin-left: 56em;
-     margin-top:-21em;
-  }
-  .pics img{
-    width: 25em;
-    height: 15em;
-  }
-  .reserve input{
-    width: 10em;
-  }
-  input{
-    width: 50%;
-    height: 2em;
-    font-size: 1.8em;
-  }
-   .chef1{
-    margin-top:-10em ;
-    width: 80em;
-     margin-left: 1em;
-   }
-   .current{
-    margin-top:10em ;
-    margin-left: 1em;
-  }
-  .useful,.ourservices{
-    margin-top: 3em;
-    margin-left:5em;
-  }
-  .news{
-    margin-top: 3em;
-    margin-left: 33em;
-  }
-  .down {
-    margin-top: auto;
-    margin-left:35em;
-   }
-   ion-icon{
-    font-size:1.8em;
-   }
-   textarea{
-    height: 3em;
-    width: 100%;
-   }
-   .button,.button1{
-     width: 10em;
-     height:5em;
-   }
-   button{
-    width: 10em;
-    height:4em;
-   }
-  .hovering, .hovering1,
-  .first, .second, .third,
-  .chef1, .chef2, .chef3,
-  .plate, .dish, .sp, .list,
-  .chefsdata, .forming, .parent,
-  .child, .child1, .booking, .festival {
-    font-size: 20px;
-  }
-  .animation img {
-    width: 35vh;
-    height: 35vh;
-  }
-  .firstline {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas:
-      'pic1 pic2'
-      'pic3 pic4'
-      'pic5 pic6';
-  }
-
-  .button, button {
-    font-size: 20px;
-  }
-} 
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  body {
-    height: auto;
-    width: 100em;
-    font-size: 16px;
-  }
-  fieldset{
-    width: 100em;
-  }
-  h1 {
-    font-size: 28px;
-  }
-
-  .name {
-    padding-top: 60px;
-    font-size: 22px;
-  }
-
-  .nav, .navbar {
-    flex-direction: row;
-  }
-
-  .navlinks {
-    display: block;
-  }
-
-  .animation img {
-    width: 40vh;
-    height: 40vh;
-  }
-
-  .firstline {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas:
-      'pic1 pic2'
-      'pic3 pic4'
-      'pic5 pic6';
-  }
-}
-
+ }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   body {
     width: 120em;
@@ -1405,9 +1295,8 @@ font-display:center ;
       'pic1 pic2 pic3'
       'pic4 pic5 pic6' ;
   }
-
 }
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+@media screen and (min-width: 993px) and (max-width: 1300px) {
   body {
     width: 180em;
     height: fit-content;
