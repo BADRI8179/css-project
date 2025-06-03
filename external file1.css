@@ -28,6 +28,16 @@ fieldset{
     display: flex;
     background-color: burlywood;
 }
+.hamburger{
+  display: none;
+  font-size: 2em;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 10px;
+}
+#nav-toggle{
+  display: none;
+}
 .nav{
     display: flex;
     position: fixed;
@@ -677,13 +687,38 @@ font-display:center ;
     margin-left: -1030px;
 }
 
+@media (max-width: 765px) {
+  .navlinks {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: auto;
+  }
+
+  #nav-toggle:checked + .hamburger + .navlinks {
+    display: flex;
+  }
+  .hamburger {
+    display: block;
+    margin-left: -20em;
+    margin-top: -1.5em;
+    font-size: 5em;
+  }
+
+  .navlinks a,
+  .hovering {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+
 @media screen and (width > 200px)and (width < 400px) {
  body {
   font-size: 0.75rem; 
   width: 100rem; 
   height: auto;
-  /* margin: 0;
-  padding: 0; */
   overflow-x: hidden;
 }
 .navlinks {
@@ -832,6 +867,7 @@ fieldset {
 .chefsdata {
   margin-top: 1.0rem; 
   margin-left: 0;
+  margin-bottom: -10em;
 }
 .chef1, .chef2, .chef3 {
   margin-top: auto;
@@ -856,8 +892,9 @@ iframe {
   margin: 0.625rem auto; 
   display: block;
 }
-input, textarea, .enter1 {
+input, textarea, .enter1, .enter{
   width: 90% !important;
+  font-size: 2em;
   margin: 0.625rem auto;
   display: block;
 }
@@ -868,23 +905,29 @@ input, textarea, .enter1 {
   width: 50% !important;
 }
 .firstline {
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6,1fr);
   grid-template-areas:
-    'pic1 pic2'
-    'pic3 pic4'
-    'pic5 pic6';
+    'pic1 '
+    'pic2'
+    'pic3'
+    'pic4'
+    'pic5'
+    'pic6';
+    margin-left: 7em;
 }
 .pics img {
-  width: 38rem; 
-  height: 15rem; 
+  width: 50rem; 
+  height: 25rem; 
   padding-left: 3rem; 
 }
 .pic3, .pic5 {
-  margin-left: 1.6rem; 
+  margin-left: 1.8rem; 
 }
-.pic4 {
-  margin-left: -1.8rem;
+.pic4{
+  margin-left: auto;
+}.pic2,.pic6 {
+  margin-left: 1.8rem;
 }
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6:hover {
   width: 100%;
@@ -956,7 +999,7 @@ h2, h3 {
   .hovering, .hovering1 {
     width: 80%;
     margin: 0.625rem auto;
-    font-size: 0.875rem; 
+    font-size: 1.2rem; 
     padding: 1.25rem;
   }
   .container {
@@ -1059,6 +1102,7 @@ h2, h3 {
   .chefsdata {
     margin-top: 1.25rem;
     margin-left: 0;
+    margin-bottom: -5em;
   }
   .chef1, .chef2, .chef3 {
     margin-top: auto;
@@ -1087,6 +1131,7 @@ h2, h3 {
     width: 90% !important;
     margin: 0.625rem auto;
     display: block;
+    font-size: 3rem;
   }
   .button, .button1 {
     width: 30% !important;
@@ -1095,23 +1140,27 @@ h2, h3 {
     width: 50% !important;
   }
   .firstline {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas:
-      'pic1 pic2'
-      'pic3 pic4'
-      'pic5 pic6';
-  }
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6,1fr);
+  grid-template-areas:
+    'pic1 '
+    'pic2'
+    'pic3'
+    'pic4'
+    'pic5'
+    'pic6';
+    margin-left: 7em;
+}
   .pics img {
-    width: 45rem;
-    height: 15rem;
+    width: 65rem;
+    height: 35rem;
     padding-left: 1.5rem;
   }
   .pic3, .pic5 {
     margin-left: 1.6rem;
   }
-  .pic4 {
-    margin-left: -1.6rem;
+  .pic2,.pic6 {
+    margin-left: 1.6rem;
   }
   .pic1, .pic2, .pic3, .pic4, .pic5, .pic6:hover {
     width: 100%;
@@ -1124,8 +1173,8 @@ h2, h3 {
     font-size: 1rem;
     padding: 0.625rem;
   }
-  h1, p ,li{
-    font-size: 1.9rem;
+  h1, p ,li,a{
+    font-size: 2rem;
   }
   h2, h3 {
     font-size: 1.875rem;
@@ -1144,7 +1193,6 @@ h2, h3 {
     margin-left: auto;
     gap: 30px;
   }
-
   h1,h2,h3{
     font-size: 40px;
   }
